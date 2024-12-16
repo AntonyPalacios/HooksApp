@@ -13,11 +13,11 @@ import {Memorize} from "./06-memos/Memorize.jsx";
 import {MemoHook} from "./06-memos/MemoHook.jsx";
 import {CallbackHook} from "./06-memos/CallbackHook.jsx";
 import {Padre} from "./07-tarea-memo/Padre.jsx";
-import './08-use-reducer/intro-reducer.js'
+import {TodoApp} from "./08-use-reducer/TodoApp.jsx";
 
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
-    <Padre />
+    <TodoApp />
   // </StrictMode>
 )
